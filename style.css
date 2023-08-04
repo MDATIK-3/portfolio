@@ -224,6 +224,8 @@ section {
 }
 .box-wrapper{
     transition: all 350ms ease;
+   border-radius: 2rem;
+    padding: 1.8rem;
 }
 .box-wrapper:hover{
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
@@ -353,6 +355,8 @@ h3 {
 position: relative;
   text-align-last: left;
   image-orientation: unset;
+   border-radius: 2rem;
+    padding: 1.8rem;
 }
 .codeforces:hover {
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
