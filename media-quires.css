@@ -1,0 +1,88 @@
+@media (max-width: 615px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  #Destop-nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-links {
+    width: 100%;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .quote {
+    order: 1;
+  }
+  .profile {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8rem;
+    margin-bottom: 20vh;
+    justify-content: center;
+    width: 100%;
+  }
+  .profile > .image {
+    width: 100%;
+    justify-content: center;
+  }
+
+  #about {
+    display: flex;
+    flex-direction: column;
+    margin: 6rem;
+  }
+  .section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .section-container > .image {
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 6rem;
+  }
+
+  .about-details-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+
+  .box-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 6%;
+  }
+
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+
+  }
+  .detail-container{
+  justify-content: center;
+  }
+
+  .contact-form{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+  
+
+  }
+  .navigation > .social-logo{
+ padding-left:3rem ;
+ padding-right: 3rem;
+
+
+  }
+}
